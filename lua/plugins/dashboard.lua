@@ -20,6 +20,16 @@ return
                 keymap = 'space ff',
                 key_hl = 'Number',
                 action = 'Telescope find_files'
+            },
+            {
+                icon = '󰂺 ',
+                icon_hl = '@variable',
+                desc = 'vimwiki: ',
+                desc_hl = 'String',
+                key = 'w',
+                keymap = 'space ww',
+                key_hl = 'Number',
+                action = 'VimwikiIndex'
             }
             },
             footer = {'aadi is so cool.'}
