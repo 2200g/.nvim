@@ -1,16 +1,16 @@
-vim.cmd("set rnu")
-vim.cmd("set nu")
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.o.rnu = true
+vim.o.nu = true
+vim.o.expandtab = true
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+vim.o.shiftwidth = 2
 
-vim.opt.termguicolors = true
+vim.o.termguicolors = true
 
-vim.opt.hlsearch = false
-vim.opt.incsearch = true
-vim.opt.scrolloff = 8
-vim.opt.wrap = false
+vim.o.hlsearch = false
+vim.o.incsearch = true
+vim.o.scrolloff = 8
+vim.o.wrap = false
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
