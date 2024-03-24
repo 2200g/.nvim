@@ -8,6 +8,7 @@ return {
 				["_"] = { "trim_whitespace" },
 				sh = { "shfmt" },
 				lua = { "stylua" },
+				c = { "clang-format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
