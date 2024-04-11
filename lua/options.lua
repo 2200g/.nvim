@@ -7,7 +7,7 @@ vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
 
-vim.opt.shortmess:append "I"
+vim.opt.shortmess:append("I")
 
 vim.o.termguicolors = true
 
@@ -19,4 +19,4 @@ vim.o.wrap = false
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set('v', '<leader>ss', ':Silicon<CR>')
+vim.keymap.set("v", "<leader>ss", ":Silicon<CR>")
